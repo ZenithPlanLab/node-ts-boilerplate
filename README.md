@@ -23,7 +23,7 @@ TODO: At the moment v20 is being used as default
 
 - [x] [Typescript](https://www.typescriptlang.org/)
 - [x] [SWC](https://swc.rs/)
-- [ ] Get an alternative for `rm -rf` in build script [package.json](./package.json#L8)
+- [ ] Get an alternative for `rm -rf` in build script [package.json](./package.json#L7)
 - [ ] The base package versions should be the LTS versions of the respective packages.
 
 ### Testing
