@@ -9,7 +9,11 @@ export default defineConfig({
       provider: 'istanbul',
       include: ['src/**/*.ts'],
       exclude: ['**/*.test.ts', '**/*.spec.ts', '**/*.d.ts'],
-      dir: 'coverage'
+      dir: 'coverage',
+      lines: 60,
+      statements: 60,
+      functions: 100,
+      branches: 100
     }
   }
 })
