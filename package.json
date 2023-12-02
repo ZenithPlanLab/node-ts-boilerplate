@@ -1,8 +1,9 @@
 {
-  "name": "ts-boilerplate",
-  "version": "0.0.0",
-  "description": "A cli tool for generating javascript boilerplate for multiple purposes",
+  "name": "@zenithplanlab/ts-boilerplate",
+  "version": "0.0.1",
+  "description": "A Javascript starter kit for Node.js CLI applications. For more information, please visit https://github.com/ZenithPlanLab/node-ts-boilerplate.git",
   "main": "dist/index.js",
+  "bin": "./scripts/cli.js",
   "scripts": {
     "build": "rm -rf dist && swc ./src --out-dir ./dist",
     "start:local": "npm run build && node ./dist/index.js",
@@ -13,7 +14,7 @@
     "test:coverage:watch": "vitest --config ./vitest.config.mjs --coverage",
     "lint": "eslint --ext .ts ./src",
     "lint:fix": "eslint --ext .ts ./src --fix",
-    "prepare": "husky install"
+    "prepare": "npx husky install"
   },
   "repository": {
     "type": "git",
